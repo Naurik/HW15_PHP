@@ -1,0 +1,19 @@
+{
+    "name": "step/mvc",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "klein/klein": "^2.1",
+        "filp/whoops": "^2.7",
+        "php-activerecord/php-activerecord": "^1.2",
+        "smarty/smarty": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Step\\": "./app"
+        },
+        "files": [
+            "./app/helpers.php"
+        ]
+    }
+}
